@@ -1,9 +1,9 @@
 # Pyarp
 
-![pyarp | beta](https://img.shields.io/badge/pyarp-beta-brightgreen.svg) [![python](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/download/releases/2.7/)
+[![pyarp | beta](https://img.shields.io/badge/pyarp-beta-brightgreen.svg)](https://github.com/7BISSO/Pyarp) [![python](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/download/releases/2.7/)
 [![scapy](https://img.shields.io/badge/scapy-2.x-blue.svg)](https://github.com/secdev/scapy/)
 [![linux](https://img.shields.io/badge/os-linux-orange.svg)](https://www.linux.com/)
-![MIT](https://img.shields.io/badge/licence-MIT-red.svg)
+[![MIT](https://img.shields.io/badge/licence-MIT-red.svg)](https://github.com/7BISSO/Pyarp/blob/master/LICENSE)
 
 Pyarp is a simple pen testing tool wrriten in python, it intercepts packets on a switched LAN by forging ARP replies, it comes with a line-oriented command interpreter, autocomplete feature and commands history.
 
