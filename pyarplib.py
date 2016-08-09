@@ -2,7 +2,7 @@
 import re
   
 banner = """  _____ __     __        _____   _____  
- |  __ \\\ \   / / /\    |  __ \ |  __ \  Pyarp Copyright (C) 2016 Hsissou Imad
+ |  __ \\\ \   / / /\    |  __ \ |  __ \  Pyarp Copyright (C) 2016 Imad Hsissou
  | |__) |\ \_/ / /  \   | |__) || |__) | [imad.hsissou@gmail.com]
  |  ___/  \   / / /\ \  |  _  / |  ___/  [https://github.com/7bisso]
  | |       | | / ____ \ | | \ \ | |      {version : beta}
