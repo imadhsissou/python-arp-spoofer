@@ -1,0 +1,47 @@
+			   _____MAN PAGE_____
+
+NAME
+	pyarp  - a friendly command-line spoofing tool wrriten in python.
+
+COMMANDS
+
+	iface - 
+			iface <interface name>
+			Manually set your network interface
+			'eth0' is set as default.
+
+	inet  - 
+			inet [option]
+			options :
+				AF_INET : IP information
+				AF_LINK : MAC information
+				Type "inet" for both.
+
+	getmac - 
+			getmac <host ip address>
+			Get host MAC address.
+
+	scan - 
+			scan <network>, eg {scan 192.168.1.0/24}
+			Map your network.
+
+	spoof - 
+			spoof <target> <target>
+			Launch MITM/ARP spoofing attack.
+			press Ctrl+C to stop.
+
+	help  - 
+			help [command]
+			display information about a command.
+
+	clear - clear screen
+
+	exit  - close pyarp, press Ctrl+D for clean exit
+			press Ctrl+C for forced exit.
+
+NOTICE
+
+	IPv6 is not supported.
+
+
+
