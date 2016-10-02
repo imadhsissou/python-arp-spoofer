@@ -5,9 +5,14 @@ Pyarp is a simple pen testing tool wrriten in python, it intercepts packets on a
 ## Dependencies  
 
 ```
-apt-get install python-dev
-apt-get install setuptools
-apt-get install pip
+# apt-get install python-dev
+# apt-get install setuptools
+# apt-get install pip
+```
+
+##Installation
+```
+# pip install pyarp
 ```
 
 ## Documentation  
