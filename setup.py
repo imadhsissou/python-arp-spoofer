@@ -14,7 +14,7 @@ setup(
     author = "Imad Hsissou",
     author_email = "imad.hsissou@gmail.com",
     url = "https://github.com/7BISSO/python-arp-spoofer",
-    download_url = "https://github.com/7BISSO/python-arp-spoofer/raw/master/dist/pyarp-0.1.1.tar.gz",
+    download_url = "https://github.com/7BISSO/python-arp-spoofer/tarball/0.1.1",
     keywords = ['arp', 'scapy'],
     include_package_data=True,
     install_requires=[
