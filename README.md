@@ -12,7 +12,8 @@ apt-get install pip
 
 ## Documentation  
 
-Type `help [command]` to display information about a command, or check the Manual.
+Type `help [command]` to display information about a command, or check the [Manual](https://github.com/7BISSO/python-arp-spoofer/blob/master/pyarp/data/MANUAL.txt) for full documentation.
+
 <b>Notice : the beta version doesn't support IPv6 yet.</b>
 
 
@@ -54,4 +55,6 @@ Sent 1 packets.
 pyarp>>
 ```
 
-## License  : MIT
+## License  
+
+The contents of this repository is licensed under [MIT License](https://github.com/7BISSO/python-arp-spoofer/blob/master/LICENSE).
