@@ -1,5 +1,5 @@
 import re
-  
+
 banner = """  _____ __     __        _____   _____  
  |  __ \\\ \   / / /\    |  __ \ |  __ \  [Author : Imad Hsissou]
  | |__) |\ \_/ / /  \   | |__) || |__) | [Author email : imad.hsissou@gmail.com]
@@ -37,7 +37,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-manual="""			   _____MAN PAGE_____
+manual = """			   _____MAN PAGE_____
 
 NAME
 	pyarp  - a friendly command-line spoofing tool wrriten in python.
@@ -87,16 +87,20 @@ regex_net = "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9
 regex_ip = "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
 regex_mac = "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"
 
+
 def pyarp_banner():
 	return banner
+
 
 def pyarp_license():
 	return license
 
+
 def pyarp_manual():
 	return manual
 
-def regex(exp,regexp):
+
+def regex(exp, regexp):
 	if regexp == 'net':
 		check = re.compile(regex_net)
 		match = check.match(exp)
@@ -114,5 +118,3 @@ def regex(exp,regexp):
 
 	else:
 		return False
-
-
