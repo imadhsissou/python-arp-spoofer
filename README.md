@@ -1,6 +1,6 @@
 # Pyarp
 
-Pyarp is a simple pen testing tool wrriten in python, it intercepts packets on a switched LAN by forging ARP replies, it comes with a line-oriented command interpreter, autocomplete feature and commands history.
+Pyarp is a simple pen testing tool, written in python. It intercepts packets on a switched LAN by forging ARP replies. It comes with a line-oriented command interpreter, with autocomplete feature and commands history.
 
 ## Dependencies  
 
@@ -17,7 +17,7 @@ Pyarp is a simple pen testing tool wrriten in python, it intercepts packets on a
 
 ## Documentation  
 
-Type `help [command]` to display information about a command, or check the [Manual](https://github.com/7BISSO/python-arp-spoofer/blob/master/pyarp/data/MANUAL.txt) for full documentation.
+Type `help [command]` to display the information about a command, or check the [Manual](https://github.com/7BISSO/python-arp-spoofer/blob/master/pyarp/data/MANUAL.txt) for full documentation.
 
 <b>Notice : the beta version doesn't support IPv6 yet.</b>
 
@@ -42,9 +42,9 @@ iface wlan0
 
 Host 1: MAC a4:7e:39:ab:fb:e0  IP 192.168.1.1
 Host 2: MAC 00:0c:6e:da:49:ab  IP 192.168.1.4
-pyarp>> 
+pyarp>>
 ```
-Launch MITM attack (Ctrl + C to stop)
+Launch MITM attack (Ctrl + C to terminate)
 ```
 pyarp>> spoof 192.168.1.1 192.168.1.4
 
@@ -62,4 +62,4 @@ pyarp>>
 
 ## License  
 
-The contents of this repository is licensed under [MIT License](https://github.com/7BISSO/python-arp-spoofer/blob/master/LICENSE).
+The contents of this repository is licensed under [MIT License] (https://github.com/7BISSO/python-arp-spoofer/blob/master/LICENSE).
