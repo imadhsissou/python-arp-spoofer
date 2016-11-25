@@ -12,6 +12,7 @@ import time
 
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from pyarplib import *
+from scapy.all import *
 import subprocess
 import netifaces
 import cmd
