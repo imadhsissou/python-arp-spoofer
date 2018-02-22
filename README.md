@@ -62,4 +62,4 @@ pyarp>>
 
 ## License  
 
-The contents of this repository is licensed under [MIT License] (https://github.com/7BISSO/python-arp-spoofer/blob/master/LICENSE).
+The contents of this repository is licensed under [MIT License](https://github.com/7BISSO/python-arp-spoofer/blob/master/LICENSE).
