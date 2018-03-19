@@ -9,13 +9,14 @@ import logging
 import os
 import sys
 import time
-
-logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from pyarplib import *
 from scapy.all import *
 import subprocess
 import netifaces
 import cmd
+
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+
 
 if os.geteuid() != 0:
     sys.exit("""Permission denied : Pyarp must be run as root.""")
