@@ -3,7 +3,7 @@ import re
 banner = """  _____ __     __        _____   _____
  |  __ \\\ \   / / /\    |  __ \ |  __ \  [Author : Imad Hsissou]
  | |__) |\ \_/ / /  \   | |__) || |__) | [Author email : imad.hsissou@gmail.com]
- |  ___/  \   / / /\ \  |  _  / |  ___/  [https://github.com/7bisso]
+ |  ___/  \   / / /\ \  |  _  / |  ___/  [https://github.com/imadhsissou]
  | |       | | / ____ \ | | \ \ | |      [version 0.1.1]
  |_|       |_|/_/    \_\|_|  \_\|_|
 
