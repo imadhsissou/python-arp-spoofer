@@ -13,8 +13,8 @@ setup(
     description="A user-friendly ARP spoofing tool",
     author="Imad Hsissou",
     author_email="imad.hsissou@gmail.com",
-    url="https://github.com/7BISSO/python-arp-spoofer",
-    download_url="https://github.com/7BISSO/python-arp-spoofer/tarball/0.1.2",
+    url="https://github.com/imadhsissou/python-arp-spoofer",
+    download_url="https://github.com/imadhsissou/python-arp-spoofer/tarball/0.1.2",
     keywords=['arp', 'scapy'],
     include_package_data=True,
     install_requires=[
